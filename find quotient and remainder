@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int no1,no2,q,r;
+  printf("\n Enter dividend:");
+  scanf("%d",&no1);
+  printf("\n Enter divisor:");
+  scanf("%d",&no2);
+  q=no1/no2;
+  r=no1%no2;
+  printf("\n Quotient = %d \n",q);
+  printf("\n Reminder = %d \n",r);
+getch();
+}
